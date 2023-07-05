@@ -12,7 +12,7 @@
 
 [3D Flip Btn 코드](https://codepen.io/seojoon/pen/XWyajoL)
 
-<img src="https://github.com/SeojoonH/html-css-js/assets/119559363/8e75c386-4bc8-4845-bd95-2ccfcdeb8d8d)https://github.com/SeojoonH/html-css-js/assets/119559363/8e75c386-4bc8-4845-bd95-2ccfcdeb8d8d" width="400" height="300"/>
+<img src="https://postfiles.pstatic.net/MjAyMzA3MDVfMTM5/MDAxNjg4NTM4MTg2ODAy.5iMPilBSHalZo_slJo_if9aP2LIdvUquDfPZw27B0i0g.kzDG-h9iQSvlt51VY2UXGxDTtn0_S-LyRjqb6BJgI8wg.PNG.seojoonspick/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-07-05_%EC%98%A4%ED%9B%84_3.21.41.png?type=w966" width="400" height="300"/>
 
 ---
 
