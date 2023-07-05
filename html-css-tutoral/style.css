@@ -1,0 +1,92 @@
+@font-face {
+  font-family: abster;
+  src: url("./font/abster-webfont.woff") format(woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/BoTxqfBVlvAx10mDIRWJ9kqikWEYf5zfR-YJRWqEeBMbUUDHo10gMzQbtlNQMzML39xZwopk_SMFEwkgAFeK7g.webp);
+  background-size: cover;
+}
+
+.container .header {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* h1과 nav를 좌우로 떨어트리기 위함 */
+  align-items: center;
+  /* height 값에 따라 수직 중앙에 위치하도록 */
+}
+
+.container .header h1 a {
+  text-decoration: none;
+  color: white;
+  font-family: abster;
+}
+
+.container .nav ul {
+  display: flex;
+}
+
+.container .nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.container .nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .nav ul a:hover {
+  color: rgb(28, 96, 254);
+  font-weight: bold;
+}
+
+.container .lions {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .lions h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: abster;
+}
+
+.container .lions p {
+  font-size: 22px;
+}
+
+.container .lions button {
+  background: none;
+  border: 2px solid rgb(28, 96, 254);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.container .lions button:hover {
+  background-color: rgb(0, 32, 193);
+}
