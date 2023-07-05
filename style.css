@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslateblue;
+}
+
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.material-icons {
+  font-size: 10rem;
+}
+
+.lg-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sm-text {
+  font-size: 1.5rem;
+}
+
+#dynamic {
+  position: relative;
+  display: inline-block;
+  /* p태그는 블록 성격을 띄기 때문에
+  부모 요소의 너비를 따르게 돼 있음
+  해당 부분을 해결하기 위해 inline-block을 사용
+  ㄴ 폰트가 줄어든 만큼 함께 너비가 줄어듬 */
+}
+
+#dynamic::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  /* 텍스트와 딱 붙지 않게 하기 위한 조치 */
+  width: 4px;
+  height: 100%;
+  background-color: white;
+}
+
+#dynamic.active::after {
+  display: none;
+  /* 커서 깜박이는 효과를 주기 위해
+  일시적으로 안 보이도록 감추는 효과를 주기 위한 조치
+  자바스크립트 코드로 active를 적용하면 깜박이는 효과 출력  */
+}
