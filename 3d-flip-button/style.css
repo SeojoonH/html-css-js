@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* 위 네 가지 코드가 정중앙에 배치되도록 하는 방법 중 하나 */
+  perspective: 1000px;
+  /* 픽셀 값이 크면 클수록 멀리 보이는 효과 */
+  /* 원근감 효과를 주기 위해서 최상위 태그에 코드를 적용해야 함 */
+}
+
+.flip-btn {
+  width: 200px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  /* '텍스트가 한 줄일 경우', 
+  height와 line-height를 동일하게 맞추면
+  텍스트가 수직 정중앙에 맞춰지게 된다. */
+  transform-style: preserve-3d;
+  /* 3d 공간에 배치하기 위한 코드 */
+  transition: 0.5s;
+  /* 0.5초에 걸쳐서 회전이 보이도록 만들기 */
+  cursor: pointer;
+}
+
+.flip-btn:hover {
+  transform: rotateX(-90deg);
+}
+
+.front {
+  background-color: goldenrod;
+  height: 100px;
+  transform: translateZ(50px);
+}
+
+.back {
+  background-color: darkgoldenrod;
+  height: 100px;
+  transform: rotateX(90deg) translateZ(150px);
+  /* 회전 시키기:
+    3D 공간 배치를 위해 Z축이 필요함
+  */
+}
