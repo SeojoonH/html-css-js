@@ -21,3 +21,11 @@
 [웹페이지 코드](https://codepen.io/seojoon/pen/VwVzPNJ)
 
 <img src="https://postfiles.pstatic.net/MjAyMzA3MDVfMTA5/MDAxNjg4NTQ2Mjk3ODU0.SHf2Ahd8kQoc3GTWnCFprscLDtzAXaTqC5aU6-DnyXkg._85LVuUP4o7twO4Z_-lHTwZUB0LSk865vL7sRsdZIX0g.PNG.seojoonspick/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-07-05_%EC%98%A4%ED%9B%84_5.37.31.png?type=w966" width="400" height="300"/>
+
+---
+
+### 4. 계산기 만들기
+
+[계산기 코드](https://codepen.io/seojoon/pen/dyQzQym?editors=0101)
+
+<img src="https://postfiles.pstatic.net/MjAyMzA3MDZfMTY1/MDAxNjg4NjE3NTM5OTI4.mQZaQFZWB1ebXE9M2w-RyRUxnMO6ZBQtiUaIv9iSkx8g.cAB5gGSkD_EA4A218Kl_vZ6V_9P4Y51482KNs4Tf1oYg.PNG.seojoonspick/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2023-07-06_%EC%98%A4%ED%9B%84_1.25.29.png?type=w966" width="400" height="300"/>
