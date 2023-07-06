@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.caculator {
+  border: 1px solid #333;
+  background-color: #ccc;
+  padding: 5px;
+  width: 287px;
+}
+
+.caculator form {
+  display: grid;
+  grid-template-columns: repeat(4, 65px);
+  grid-auto-rows: 65px;
+  grid-gap: 5px;
+}
+
+.caculator form input {
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.caculator form input:hover {
+  box-shadow: 1px 1px 2px #333;
+}
+
+.caculator form .clear {
+  background-color: #ed4848;
+}
+
+.caculator form .operator,
+.result {
+  background-color: orange;
+}
+
+.caculator form .dot {
+  background-color: green;
+}
+
+.caculator form input[type="text"] {
+  grid-column: span 4;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.caculator form .clear {
+  grid-column: span 3;
+}
+
+.caculator form .result {
+  grid-column: span 2;
+}
